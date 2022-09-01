@@ -1,7 +1,7 @@
 public class Main {
     public static void main (String[] args) {
-        int[] sales;
-        SalesManager salesManager = new SalesManager();
-        System.out.println("На сегодняя топ продаж" + salesManager.max());
+        int[] sales = {22, 44, 66, 88};
+        SalesManager salesManager = new SalesManager(sales);
+        System.out.println("На сегодняя топ продаж " + salesManager.max());
     }
 }
